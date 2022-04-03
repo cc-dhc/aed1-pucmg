@@ -4,6 +4,7 @@ void pesquisa(int n) {
     float salario=0, salario_total=0;
     int filhos=0;
 
+    // Laço para a leitura dos salários
     for(int i=0; i<n; i++) {
         scanf("%f %i", &salario, &filhos);
         salario_total += salario;

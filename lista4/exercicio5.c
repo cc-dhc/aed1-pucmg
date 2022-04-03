@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 char conceito(int nota) {
-    if(nota <= 39) {
+    if(nota <= 39) { // Comparações baseadas na tabela
         return 'F';
     } else if(nota <= 59) {
         return 'E';

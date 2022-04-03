@@ -6,7 +6,7 @@ float media(float n1, float n2, float n3, char tipo) {
     } else if(tipo == 'P') {
         return (n1*5, n2*3, n3*2)/10;
     }
-    return 0;
+    return 0; // Retorna 0 se o tipo for diferente de 'A' ou 'B'
 }
 
 void main() {

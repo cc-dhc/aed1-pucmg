@@ -4,7 +4,7 @@ float media(int n) {
     float nota=0, notas=0;
     int aprovados=0;
 
-    for(int i=0; i<n; i++) {
+    for(int i=0; i<n; i++) { // Laço para a leitura das notas
         scanf("%f", &nota);
         if(nota >= 6) {
             aprovados++;
@@ -12,7 +12,7 @@ float media(int n) {
         }
     }
 
-    return notas/aprovados;
+    return notas/aprovados; // Cálculo da média
 }
 
 void main() {

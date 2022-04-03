@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int positivo(int num) {
-    if(num >= 0) {
+    if(num >= 0) { // Verifica se num é positivo
         return 1;
     } else {
         return 0;

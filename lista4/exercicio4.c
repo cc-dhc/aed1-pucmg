@@ -1,13 +1,14 @@
 #include<stdio.h>
 
 void triangulo(float x, float y, float z) {
-    if(x >= y+z || y >= x+z || z >= x+y) {
+    // Primeiro, é preciso verificar se x, y e z são lados de um possível triângulo
+    if(x >= y+z || y >= x+z || z >= x+y) { 
         printf("Triangulo invalido.\n");
     } else if(x == y && x == z) {
         printf("Triangulo Equilatero.\n");
     } else if(x == y || x == z || y == z) {
         printf("Triangulo Isoceles.\n");
-    } else {
+    } else { // Resta apenas o triângulo escaleno, então não é preciso verificação
         printf("Triangulo Escaleno.\n");
     }
 }

@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 float func(int n) {
-    int f=1;
-    float s=1;
+    int fatorial=1; // Variável que armazenará o valor o fatorial durante o laço
+    float s=1; // O S da questão já começa em 1
 
     for(int i=1; i<=n; i++) {   
-        f *= i;
-        s += 1.0/f;    
+        fatorial *= i; // Atualização do fatorial
+        s += 1.0/fatorial;   
     }
 
     return s;

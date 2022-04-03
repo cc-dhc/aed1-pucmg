@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 char categoria(int idade) {
-    if(idade >= 5 && idade <= 7) {
+    if(idade >= 5 && idade <= 7) { // Comparações baseadas na tabela
         return 'F';
     } else if(idade <= 10) {
         return 'E';

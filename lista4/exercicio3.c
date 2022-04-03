@@ -2,8 +2,8 @@
 
 void crescente(int n1, int n2, int n3) {
     int temp=0;
-    while(!(n1 < n2 && n2 < n3)) {
-        if(n1 > n2) {
+    while(!(n1 < n2 && n2 < n3)) { // O Laço vai parar quando n1 <= n2 <= n3
+        if(n1 > n2) { // Troca de valores em posições incorretas
             temp = n1;
             n1 = n2;
             n2 = temp;
