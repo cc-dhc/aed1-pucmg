@@ -1,10 +1,8 @@
 #include<stdio.h>
 
 double serie(int n, int fat) {
-    printf("%d %d\n", n, fat);
-    if(fat == 1) return 1;
-    
-     return (serie(n-1, fat/n) + 1.0/fat);
+    if(fat == 1) return 1; // Caso base
+    return serie(n-1, fat/n) + 1.0/fat; // Passo recursivo
 }
 
 void main() {
@@ -12,7 +10,7 @@ void main() {
 
     scanf("%d", &n);
 
-    for(int i=2; i<=n; fat*=i++);
+    for(int i=2; i<=n; fat*=i++); // Fatorial fora da função recursiva
 
     printf("%.2lf\n", serie(n, fat));
 }
