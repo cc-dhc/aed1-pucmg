@@ -1,8 +1,12 @@
 #include<stdio.h>
 
-int contador(int n) {
+// Soma os dígitos de n
+int somador(int n) {
+    // Caso base: retorna n pois esse é o último dígito a ser somado
     if(n/10 == 0) return n;
-    else return contador(n/10) + n%10;
+    // Passo recursivo: divisão inteira de n por 10 é o mesmo que remover o menor digito de n
+    // O resto da divisão de n por 10 corresponde ao valor do menor dígito de n
+    else return somador(n/10) + n%10;
 }
 
 void main() {
@@ -10,5 +14,5 @@ void main() {
 
     scanf("%d", &n);
 
-    printf("%d\n", contador(n));
+    printf("%d\n", somador(n));
 }

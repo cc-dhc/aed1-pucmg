@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int resto(int numerador, int denominador) {
-    if(numerador-denominador <0) return numerador;
-    else return resto(numerador-denominador, denominador);
+    if(numerador - denominador < 0) return numerador;
+    else return resto(numerador - denominador, denominador);
 }
 
 void main() {
