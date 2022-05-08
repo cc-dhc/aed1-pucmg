@@ -28,5 +28,6 @@ int main() {
 
     f = func(&a, &b, &c);
 
-    printf("%d %d %d\n", a, b, c);
+    printf("%d %d %d; retorno: %d\n", a, b, c, f);
+
 }

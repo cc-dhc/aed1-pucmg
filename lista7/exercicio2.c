@@ -1,19 +1,11 @@
 #include<stdio.h>
 
 int main() {
-    int x=10, *p=&x;
-
-    printf("%d\n", p);
+    // p++ == O valor do ponteiro (endereço) é alterado para +sizeof(typeof(p)).
     
-    p++; // O endereço do ponteiro (valor de p) é alterado para +4, já que int ocupa 4 bytes.
-    
-    printf("%d\n", p);
+    // (*p)++ == O valor no endereço p é retornado e depois soma 1;
 
-    printf("%d\n", *p);
+    // *(p++) == O valor no endereço p; p+=1; 
 
-    // *p era 10, mas agora é 11 pois o valor de x foi alterado ()
-    (*p)++;
-    printf("%d\n", *p);
-
-    
+    // *(p+10) == Valor no endereço p+10;
 }
