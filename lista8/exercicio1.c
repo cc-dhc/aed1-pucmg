@@ -15,8 +15,9 @@ int* aloca(int n, int preenche) {
 
 void imprime(int* v, int n) {
     for(int i=0; i<n; i++) {
-        printf("%d", *(v+i));
+        printf("%d ", *(v+i));
     }
+    printf("\n");
 }
 
 void preenche(int* v, int n, int valor, int is_aleatorio) {
@@ -36,6 +37,7 @@ void inverte(int* v, int n) {
     for(int i=0; i<n/2; i++) {
         swap = *(v+i);
         *(v+i) = *(v+n-1-i);
+        *(v+n-1-i) = swap;
     }
 }
 
@@ -47,15 +49,21 @@ int main() {
 
     if(v1 == NULL || v2 == NULL) return 1;
 
+    printf("V1: \n");
     imprime(v1, 10);
+    printf("V2: \n");
     imprime(v2, 10);
 
-    v1 = preenche(v1, 10, 314, TRUE);
+    printf("Preenche V1: \n");
+    preenche(v1, 10, 0, TRUE);
     imprime(v1, 10);
 
+    printf("Inverte: \n");
     inverte(v1, 10);
     inverte(v2, 10);
     
+    printf("V1: \n");
     imprime(v1, 10);
+    printf("V2: \n");
     imprime(v2, 10);
 }
