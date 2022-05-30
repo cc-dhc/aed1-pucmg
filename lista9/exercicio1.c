@@ -15,16 +15,14 @@ int main() {
     eletro eletros[n];
 
     for (int i = 0; i < n; i++) {
-
-        scanf("%s %f %f", eletros[n].nome, 
-        &(eletros[n].potencia), &(eletros[n].ativo));
-        printf("aaaaaaaaaaaaa\n");
-        consumo_total += eletros[n].potencia*eletros[n].ativo;
+        scanf("%s", eletros[i].nome);
+        scanf("%f %f", &eletros[i].potencia, &eletros[i].ativo);
+        consumo_total += eletros[i].potencia*eletros[i].ativo*30;
     }
 
     for (int i = 0; i < n; i++) {
         printf("%s: %.2f\n", eletros[n].nome, 
-        eletros[n].potencia*eletros[n].ativo/consumo_total);
+        eletros[n].potencia*eletros[n].ativo*30/consumo_total);
     }
 
 }

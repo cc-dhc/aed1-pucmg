@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 
 enum dias {
     Domingo,
@@ -11,7 +13,36 @@ enum dias {
 };
 
 int main() {
-    char **mat;
+    char mat[7][30] = {
+        "Domingo",
+        "Segunda",
+        "Terca",
+        "Quarta",
+        "Quinta",
+        "Sexta",
+        "Sabado"
+    };
     
+    char dia[30];
+    int num;
 
+    scanf("%s", dia);
+
+
+
+    for (int i = 0; i < 7; i++)
+    {
+        if(strcmp(mat[i], dia) == 0) {
+            num = i;
+        }
+    }
+    printf("%d\n", num);
+    switch(num) {
+        case Domingo:
+        case Sabado:
+        printf("Final de semana\n");
+        break;
+        default:
+        printf("Dia de semana\n");
+    }
 }
