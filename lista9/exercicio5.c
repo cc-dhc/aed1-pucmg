@@ -6,7 +6,15 @@
 typedef struct nota_ {
     char id;
     float valor;
-}nota;
+} nota;
+
+float letra_para_nota(char letra) {
+    for(int i=0; i<7; i++) {
+        if(letra == 'A' + i) {
+            return i;
+        }
+    }
+}
 
 int main() {
     nota notas[7];
@@ -24,21 +32,18 @@ int main() {
     float total = 0;
     int resposta = 0;
 
+
+
     for(int i=0; i<tamanho; i++) {
         if(musica[i] == '/') {
-            total = 0;
-            i++;
-            while(musica[i] != '/') {
-                for(int j=0; j<7; j++) {
-                    if(musica[i] == notas[j].id) {
-                        total += notas[j].valor;
-                        break;
-                    }
-                }
-                i++;
-            }
-            i--;
             if(total == 1) resposta++;
+            total = 0;
+        }
+        for(int j=0; j<7; j++) {
+            if(musica[i] == notas[j].id) {
+                total += notas[j].valor;
+                break;
+            }
         }
     }
 
