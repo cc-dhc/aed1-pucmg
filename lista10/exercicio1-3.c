@@ -26,14 +26,43 @@ typedef struct compromisso_ {
     char descricao[100];
 } compromisso;
 
-void registrar(compromisso *compromisso) {
+void escrever_compromissos(char *caminho, compromisso *compromissos, int quantidade) {
+    FILE *arquivo = fopen(caminho, "w");
+    fwrite(compromissos, sizeof(compromisso), quantidade, arquivo);
+}
+
+void ler_compromissos(char *caminho, compromisso *compromissos) {
+    FILE *arquivo = fopen(caminho, "r");
+    fseek(arquivo, 0, SEEK_END);
+    int quantidade = ftell(arquivo)/sizeof(compromisso);
+    fseek(arquivo, 0, SEEK_SET);
+
+    compromissos = realloc(compromissos, sizeof(compromisso)*quantidade);
+
+    for(int i = 0; i < quantidade; i++)
+    {
+        fread(&compromissos[i], sizeof(compromisso), 1, arquivo);
+    }    
+    fclose(arquivo);
+}
+
+void registrar(compromisso *compromissos, int quantidade) {
+    compromissos = (compromisso *)realloc(compromissos, sizeof(compromisso)*quantidade+1);
+
     printf("Data: ");
-    scanf("%d/%d/%d", &compromisso->data.dia, &compromisso->data.mes, &compromisso->data.ano);
+    scanf("%d/%d/%d", 
+    &compromissos[quantidade].data.mes, 
+    &compromissos[quantidade].data.mes, 
+    &compromissos[quantidade].data.ano);
+
     printf("Hora: ");
-    scanf("%d:%d:%d", &compromisso->hora.horas, &compromisso->hora.minutos, &compromisso->hora.segundos);
+    scanf("%d:%d:%d", 
+    &compromissos[quantidade].hora.horas, 
+    &compromissos[quantidade].hora.minutos, 
+    &compromissos[quantidade].hora.segundos);
 
     printf("Descricao (ate 100 caracteres): ");
-    scanf("%s", compromisso->descricao);
+    scanf("%s", compromissos[quantidade].descricao);
 }
 
 void imprimir(compromisso compromisso) {
@@ -45,22 +74,26 @@ void imprimir(compromisso compromisso) {
 
 int main() {
     int comando = 0, quantidade = 0;
-    compromisso compromissos[MAX];
+    char caminho[100];
+    compromisso *compromissos = NULL;
 
-    while(1) {
+    while(comando != 6) {
         //Menu
         printf("1- Registrar compromisso\n2- Listar todos os compromissos\n3- Listar compromissos de um mes\n4- Salvar agenda\n5- Carragar agenda salva\n6- Sair\n> ");
         scanf("%d", &comando);
-        switch(comando != 6) {
+        switch(comando) {
+            // Registrar compromisso
             case 1:
-                registrar(&compromissos[quantidade]);
+                registrar(compromissos, quantidade);
                 quantidade++;
                 break;
             case 2:
+            // Listar todos os compromissos
                 for(int i=0; i<quantidade; i++) {
                     imprimir(compromissos[i]);
                 }
                 break;
+            // Listar compromissos de um mes
             case 3:
                 int mes;
                 printf("Mes: ");
@@ -71,6 +104,19 @@ int main() {
                     }
                 }
                 break;
+            // Salvar agenda
+            case 4:
+                printf("Caminho do arquivo: ");
+                scanf("%s", caminho);
+                escrever_compromissos(caminho, compromissos, quantidade);
+                break;
+            // Carregar agenda salva
+            case 5:
+                printf("Caminho do arquivo: ");
+                scanf("%s", caminho);
+                ler_compromissos(caminho, compromissos);
+                break;
+            // Sair
             case 6:
                 
                 break;
