@@ -15,7 +15,10 @@ int main() {
     carro carros[n];
 
     for(int i=0; i<n; i++) {
+        // Leitura do carro
         scanf("%s %f", carros[i].modelo, &carros[i].consumo);
+
+        // Verificando se o carro tem um consumo melhor do que o carro com o melhor consumo até agora.
         if(carros[i].consumo > melhor_consumo) {
             melhor_consumo = carros[i].consumo;
             strcpy(melhor_modelo, carros[i].modelo);

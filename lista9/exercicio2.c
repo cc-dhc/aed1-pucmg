@@ -24,19 +24,22 @@ int main() {
     };
     
     char dia[30];
-    int num;
+    int num = -1;
 
     scanf("%s", dia);
 
-
-
-    for (int i = 0; i < 7; i++)
-    {
+    // Comparando a entrada com os elementos do array
+    for (int i = 0; i < 7; i++) {
         if(strcmp(mat[i], dia) == 0) {
             num = i;
+            break;
         }
     }
-    printf("%d\n", num);
+
+    if(num == -1) {
+        printf("Dia invalido\n");
+    }
+
     switch(num) {
         case Domingo:
         case Sabado:
