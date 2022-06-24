@@ -7,6 +7,6 @@
 # Linguagem C
 
 ## [Fabio Akita](https://www.youtube.com/c/FabioAkita1990)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Gp2m8ZuXoPg/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YyWMN_0g3BQ/0.jpg)](https://www.youtube.com/watch?v=YyWMN_0g3BQ)
