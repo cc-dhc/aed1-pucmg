@@ -1,4 +1,4 @@
-# Algorítmos e estruturas de dados
+# Algoritmos e estruturas de dados
 
 ## [FreeCodeCamp](https://freecodecamp.org/)
 <iframe width="420" height="315" src="http://www.youtube.com/embed/8hly31xKli0" frameborder="0" allowfullscreen></iframe>
