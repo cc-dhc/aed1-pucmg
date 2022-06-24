@@ -1,12 +1,7 @@
 # Algoritmos e estruturas de dados
 
-## [FreeCodeCamp](https://freecodecamp.org/)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8hly31xKli0/0.jpg)](https://www.youtube.com/watch?v=8hly31xKli0)
-
-
-# Linguagem C
-
 ## [Fabio Akita](https://www.youtube.com/c/FabioAkita1990)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Gp2m8ZuXoPg/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![](https://img.youtube.com/vi/8G80nuEyDN4/0.jpg)](https://www.youtube.com/watch?v=8G80nuEyDN4&list=PLdsnXVqbHDUcQIuiH9b-i9A85H3A2ZW5W&ab_channel=FabioAkita)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YyWMN_0g3BQ/0.jpg)](https://www.youtube.com/watch?v=YyWMN_0g3BQ)
+## [FreeCodeCamp](https://freecodecamp.org/)
+[![](https://img.youtube.com/vi/8hly31xKli0/0.jpg)](https://www.youtube.com/watch?v=8hly31xKli0)
