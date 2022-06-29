@@ -4,12 +4,12 @@
 
 class Pessoa {
   public:
-    int codigo=0;
-    std::string nome="";
-    int idade=0;
-    std::string endereco="";
-    int numero=0;
-    int complemento=0;
+    int codigo;
+    std::string nome;
+    int idade;
+    std::string endereco;
+    int numero;
+    int complemento;
 
     Pessoa() {}
 
@@ -21,11 +21,13 @@ class Pessoa {
 
 int main() {
   int n;
-  std::cout << "Quantidade de pessoas: " << std::endl;
+  std::cout << "Quantidade de pessoas: ";
   std::cin >> n;
   Pessoa pessoas[n];
 
   for(int i=0; i<n; i++) {
+    std::cout << std::endl << "Pessoa " << i+1 << ":" << std::endl;
+
     std::cout << "Código: ";
     std::cin >> pessoas[i].codigo;
 
@@ -49,4 +51,12 @@ int main() {
   std::string caminho;
   std::cin >> caminho;
 
+  std::ofstream file;
+
+  file.open(caminho, std::ofstream::binary);
+
+  if(file.is_open()) {
+    file.write((char*)&pessoas, sizeof(Pessoa)*n);
+    file.close();
+  }
 }
