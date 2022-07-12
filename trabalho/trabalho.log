@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.14)  29 JUN 2022 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.14)  11 JUL 2022 21:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,27 +305,39 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
+
+/home/p314/src/aed1/trabalho/trabalho.tex:9: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 <
+     <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
- (./trabalho.aux)
+(./trabalho.aux)
 \openout1 = `trabalho.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 Package biblatex Info: Trying to load language 'portuguese'...
 Package biblatex Info: ... file 'portuguese.lbx' found.
  (/opt/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/portuguese.lbx
@@ -337,40 +349,62 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `trabalho.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'trabalho.bbl' found.
- (./trabalho.bbl)
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
- [1
+Package biblatex Info: ... file 'trabalho.bbl' not found.
 
-{/opt/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./trabalho.aux)
+No file trabalho.bbl.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+[1
+
+{/opt/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+
+Overfull \hbox (6.37184pt too wide) in paragraph at lines 22--22
+ [] 
+ []
+
+
+LaTeX Warning: Citation 'inproceedings' on page 2 undefined on input line 25.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
+[2]
+
+LaTeX Warning: Empty bibliography on input line 68.
+
+[3] (./trabalho.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                trabalho
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'trabalho.run.xml'.
 \openout1 = `trabalho.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10050 strings out of 478238
- 194237 string characters out of 5825484
- 912525 words of memory out of 5000000
- 28239 multiletter control sequences out of 15000+600000
- 474160 words of font info for 44 fonts, out of 8000000 for 9000
+ 10023 strings out of 478238
+ 193554 string characters out of 5825484
+ 912461 words of memory out of 5000000
+ 28213 multiletter control sequences out of 15000+600000
+ 475075 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,68p,770b,1573s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on trabalho.pdf (2 pages, 80593 bytes).
+ 60i,6n,68p,770b,1575s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on trabalho.pdf (3 pages, 85628 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

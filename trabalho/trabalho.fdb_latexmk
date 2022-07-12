@@ -1,17 +1,18 @@
 # Fdb version 3
-["biber trabalho"] 1656536324 "trabalho.bcf" "trabalho.bbl" "trabalho" 1656536708
-  "artigo.bib" 1656526210 220 9b16a4923a2aa050cbb295ccc7dbc5c0 ""
-  "trabalho.bcf" 1656536708 107094 932e9e937cc4b677097566119acff853 "pdflatex"
+["biber trabalho"] 0 "trabalho.bcf" "trabalho.bbl" "trabalho" 0
+  "trabalho.bcf" 0 -1 0 "pdflatex"
   (generated)
   "trabalho.bbl"
   "trabalho.blg"
-["pdflatex"] 1656536707 "/home/p314/src/aed1/trabalho/trabalho.tex" "trabalho.pdf" "trabalho" 1656536708
-  "/home/p314/src/aed1/trabalho/trabalho.tex" 1656536707 3121 b89596b2cbc67e2cb623ae0ed8d53ff3 ""
+["pdflatex"] 1657584778 "/home/p314/src/aed1/trabalho/trabalho.tex" "trabalho.pdf" "trabalho" 1657584778
+  "/home/p314/src/aed1/trabalho/trabalho.tex" 1657584776 3302 3a20ba039426d01c6ddc49de3eaab549 ""
   "/opt/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1649935264 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1649935264 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1649935264 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1649935264 1524 4414a8315f39513458b80dfc63bff03a ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1649935264 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1649935264 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1649935264 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1649935264 1288 655e228510b4c2a1abe905c368440826 ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1649935264 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1649935264 1300 b62933e007d01cfd073f79b963c01526 ""
@@ -20,12 +21,12 @@
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1649935264 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1649935264 1120 8b7d695260f3cff42e636090a8002094 ""
   "/opt/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1649935264 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
+  "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1649935264 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1649935264 32080 340ef9bf63678554ee606688e7b5339d ""
   "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1649935264 36741 fa121aac0049305630cf160b86157ee4 ""
   "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1649935264 35469 70d41d2b9ea31d5d813066df7c99281c ""
+  "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1649935264 35752 024fb6c41858982481f6968b5fc26508 ""
   "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1649935264 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1649935264 32362 179c33bbf43f19adbb3825bb4e36e57a ""
-  "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1649935264 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/opt/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1649935264 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/opt/texlive/2022/texmf-dist/tex/generic/babel-portuges/portuguese.ldf" 1649935264 6599 898431e984e4e8b6d8aa6cdcb036f8db ""
   "/opt/texlive/2022/texmf-dist/tex/generic/babel/babel.sty" 1649935264 147649 823237dc86e8acfaa45204ca8085a60e ""
@@ -65,10 +66,10 @@
   "/opt/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1649935264 4410324 5e1b099fc984b7d115affa25cce5ebe7 ""
   "/opt/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1649935264 2828933 2e7589335b91272f98c67282e29c996d ""
   "/opt/texlive/2022/texmf.cnf" 1649935264 585 9e8504408f25e5ac7fa614e58817b8d1 ""
-  "trabalho.aux" 1656536708 383 46b1a71faa8c29c62f61b53086d96fea "pdflatex"
-  "trabalho.bbl" 1656536325 1930 ba5e46d3ef0ecba7669f8d91df036cf9 "biber trabalho"
-  "trabalho.run.xml" 1656536708 2332 6e5a6b2b6c30d66d06c7f9f0eb1c835d "pdflatex"
-  "trabalho.tex" 1656536707 3121 b89596b2cbc67e2cb623ae0ed8d53ff3 ""
+  "trabalho.aux" 1657584778 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "trabalho.bbl" 0 -1 0 "biber trabalho"
+  "trabalho.run.xml" 0 -1 0 "pdflatex"
+  "trabalho.tex" 1657584776 3302 3a20ba039426d01c6ddc49de3eaab549 ""
   (generated)
   "trabalho.aux"
   "trabalho.bcf"
